@@ -46,7 +46,7 @@ namespace Plugins.DataStore.InMemory
             if (categoryToUpdate != null)
             {
                 categoryToUpdate.Name = category.Name;
-                categoryToUpdate.Description = category.Description;
+                categoryToUpdate.Description = category.Description; 
             }
         }
     }
